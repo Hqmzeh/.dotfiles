@@ -9,5 +9,27 @@
     ~/.config/i3:
         path: config/i3/
         create: true
-
-
+    ~/.config/polybar:
+        path: config/polybar
+        create: true      
+    ~/.config/mpv:
+        path: config/mpv/
+        create: true
+    ~/.config/scripts:
+        path: config/scripts/
+        create: true
+    ~/.config/flameshot:
+        path: config/flameshot
+        create: true      
+    ~/.config/neofetch:
+        path: config/neofetch
+        create: true
+    ~/.config/MangoHud:
+        path: config/MangoHud
+        create: true
+    ~/.config/picom:
+        path: config/picom
+        create: true
+    ~/.config/zathura:
+        path: config/zathura
+        create: true
