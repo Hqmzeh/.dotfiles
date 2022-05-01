@@ -12,7 +12,13 @@
         create: true
     ~/.config/polybar:
         path: config/polybar
-        create: true      
+        create: true   
+    ~/.config/alacritty:
+        path: config/alacritty
+        create: true    
+    ~/.vim:
+        path: config/vim/
+        create: true
     ~/.config/mpv:
         path: config/mpv/
         create: true
