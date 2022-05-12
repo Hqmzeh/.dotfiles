@@ -16,6 +16,9 @@
     ~/.config/alacritty:
         path: config/alacritty
         create: true    
+    ~/.config/rofi:
+        path: config/rofi
+        create: true
     ~/.vim:
         path: config/vim/
         create: true
@@ -25,6 +28,9 @@
     ~/.config/scripts:
         path: config/scripts/
         create: true
+    ~/.themes:
+        path: themes
+        create: true    
     ~/.config/flameshot:
         path: config/flameshot
         create: true      
