@@ -20,13 +20,13 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec i3-dmenu-desktop
 
 # ability to change languages
-exec_always --no-startup-id $HOME/.config/scripts/languageedit.sh
+exec_always --no-startup-id $HOME/.dotfiles/config/scripts/languageedit.sh
 
 # Fix permission problem for screen brightness settings
-exec_always --no-startup-id $HOME/.config/scripts/backlightchown.sh
+exec_always --no-startup-id $HOME/.dotfiles/config/scripts/backlightchown.sh
 
 # fix screen dpi (pixel to display ratio) 
-exec_always --no-startup-id $HOME/.config/scripts/dpichange.sh
+exec_always --no-startup-id $HOME/.dotfiles/config/scripts/dpichange.sh
 
 # change focus
 bindsym $mod+h focus left
@@ -177,7 +177,7 @@ exec_always --no-startup-id nvidia-settings --load-config-only
 exec --no-startup-id nm-applet
 
 # ability to toggle touchpad
-bindcode 064 exec --no-startup-id $HOME/.config/scripts/touchpad.sh
+bindcode 064 exec --no-startup-id $HOME/.dotfiles/config/scripts/touchpad.sh
 
 # Increase Brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5
