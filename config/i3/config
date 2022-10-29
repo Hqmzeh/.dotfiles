@@ -165,7 +165,7 @@ gaps inner 13
 smart_gaps on
 
 # set desktop bg
-exec_always --no-startup-id feh --bg-fill $HOME/.wallpapers/4k-tree-alone-dark-evening-wallpaper-scaled.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/.wallpapers/thumb-1920-492201.jpg
 
 # start picom, config: .config/picom.conf
 exec --no-startup-id  picom 
